@@ -1,9 +1,7 @@
 <?php
 
-$parola = $_GET['nome'];
 
-
-IF(isset($_GET['nome'])){
+if(isset($_GET['nome'])){
 	$nome = $_GET['nome'];
 } else {
 $nome = 'Non ho il nome';

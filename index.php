@@ -8,8 +8,8 @@
 </head>
 <body>
     
-    <form action="parola.php" method="GET">
-        <imput type="text" name="nome">''
+    <form action="badwords.php" method="GET">
+        <input type="text" name="nome">
         <button type="submit">invia</button> 
     </form>
 
