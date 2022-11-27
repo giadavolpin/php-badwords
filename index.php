@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <form action="badwords.php" method="GET">
+    <form action="badwords.php" method="GET"> <!-- tutto quello che è in GET va nell'url mentre POST no -->
         <input type="text" name="paragrafo">
         <input type="text" name="parola">
         <button type="submit">invia</button> 

@@ -1,10 +1,14 @@
 <?php
 
 
-if(isset($_GET['parola'])){
-	$parola = $_GET['parola'];
+if(isset($_GET['parola'])){    /* se è settata la var GET allora  */
+	$parola = $_GET['parola'];  /*  */
+    $parola = str_replace('cacca', '***', $parola);   //ti ritorna la parola dopo la sostituzione e già la salva grazie a quello che ho scritto all'inizio
+    strlen($parola);
+    echo $parola; 
+    
 } else {
-$parola = 'Parola non permessa';
+    $parola = 'Parola non permessa';
 };
 
 ?>
@@ -21,3 +25,9 @@ $parola = 'Parola non permessa';
         <h1><?php echo "$parola" ?> </h1>
 </body>
 </html>
+
+
+
+
+
+
