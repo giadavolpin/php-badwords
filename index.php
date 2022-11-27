@@ -9,7 +9,8 @@
 <body>
     
     <form action="badwords.php" method="GET">
-        <input type="text" name="nome">
+        <input type="text" name="paragrafo">
+        <input type="text" name="parola">
         <button type="submit">invia</button> 
     </form>
 

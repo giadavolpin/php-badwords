@@ -1,10 +1,10 @@
 <?php
 
 
-if(isset($_GET['nome'])){
-	$nome = $_GET['nome'];
+if(isset($_GET['parola'])){
+	$parola = $_GET['parola'];
 } else {
-$nome = 'Non ho il nome';
+$parola = 'Parola non permessa';
 };
 
 ?>
@@ -18,6 +18,6 @@ $nome = 'Non ho il nome';
     <title>Document</title>
 </head>
 <body>
-        <h1><?php echo "$nome" ?> </h1>
+        <h1><?php echo "$parola" ?> </h1>
 </body>
 </html>
